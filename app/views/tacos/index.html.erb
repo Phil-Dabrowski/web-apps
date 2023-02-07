@@ -1,0 +1,18 @@
+<h1>I want icecream</h1>
+<p> What kind of icecream? </p>
+
+<%
+fillings =["peepeee", "lato", "tree", "Choo Choo"]
+
+%>
+
+<p> Currently, there are <%= fillings.count%> kinds of tacos: </p>
+
+<ul> Types of icecream
+<!--<li>  Choco </li> -->
+
+<ul>  <% for taco in fillings %> 
+<li><%= taco %> </li>
+<%end%>
+
+</ul>
